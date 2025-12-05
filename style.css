@@ -1,0 +1,17 @@
+body , html{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100;
+    width: 100vw;
+    display: center;
+    justify-content: center;
+    align-items: center;
+    background: url(logo\ de\ la\ empresa.png)  center;
+    background-size: cover;
+}
+.contenedor{
+    text-align: center;
+    padding: 20px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px;
+}

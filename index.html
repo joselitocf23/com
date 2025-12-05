@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Joselito Comunicaciones - Inicio</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+.product {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+button {
+    padding: 8px 12px;
+    background: #0056ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #003bbb;
+}
+</style>
+
+</head>
+
+<body>
+ 
+<nav class="navbar">
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="ubicacion.html">Ubicación</a></li>
+    </ul>
+</nav>
+
+<section class="section">
+    <h1>Bienvenido a Joselito Comunicaciones</h1>
+    <p>Tu tienda confiable de celulares, accesorios y tecnología moderna.</p>
+
+</html>
+
+  <style>
+    /* RESET BÁSICO */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html,body { height:100%; font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; color:#111; }
+    a { color: inherit; text-decoration: none; }
+    img { max-width:100%; display:block; }
+
+    /* LAYOUT */
+   header {
+      background: linear-gradient(90deg,#0b79d0,#0375c6);
+      color: hsl(214, 16%, 91%);
+      padding: 18px 20px;
+      display:flex;
+      align-items:center;
+      gap:18px;
+}
+    .logo {
+      display:flex;
+      align-items:center;
+      gap:12px;
+    }
+    .logo img { width:56px; height:56px; object-fit:contain; border-radius:8px; background:#fff; padding:6px; }
+    .brand { font-size:20px; font-weight:700; letter-spacing:0.4px; }
+    .tag { font-size:12px; opacity:0.95; }
+
+    nav { margin-left:auto; }
+    nav a { color: #fff; margin-left:16px; font-weight:600; }
+
+    main { padding:28px 18px; max-width:1100px; margin:0 auto; }
+
+    /* HERO */
+    .hero {
+      display:flex;
+      flex-direction:column;
+      gap:14px;
+      background: #f6f9fc;
+      padding:22px;
+      border-radius:12px;
+      margin-bottom:20px;
+    }
+    .hero .title { font-size:28px; font-weight:800; }
+    .hero .subtitle { color:#333; font-size:15px; }
+    .cta { display:inline-block; margin-top:8px; background:#ff7a00; color:#fff; padding:10px 16px; border-radius:8px; font-weight:700; }
+
+    /* GALERÍA / PRODUCTOS */
+    .section-title { margin:18px 0 12px; font-size:18px; font-weight:700; }
+    .gallery-grid {
+      display:grid;
+      grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+      gap:14px;
+    }
+    .card {
+      background:#fff;
+      border-radius:10px;
+      padding:10px;
+      box-shadow: 0 4px 12px rgba(15,20,30,0.06);
+      text-align:center;
+    }
+    .card img { height:160px; object-fit:contain; margin-bottom:8px; }
+    .card h4 { font-size:14px; margin-bottom:6px; }
+    .card p { font-size:13px; color:#555; margin-bottom:8px; }
+
+    /* CONTACTO & FOOTER */
+    .contact {
+      display:flex;
+      gap:18px;
+      flex-wrap:wrap;
+      margin:18px 0;
+      align-items:center;
+    }
+    .contact .card { flex:1; min-width:220px; }
+    footer { text-align:center; color:#666; font-size:13px; padding:18px 6px; margin-top:18px; }
+
+    /* MODAL IMAGEN */
+    .modal {
+      position:fixed;
+      inset:0;
+      display:none;
+      justify-content:center;
+      align-items:center;
+      background: rgba(0,0,0,0.6);
+      z-index:9999;
+    }
+    .modal.open { display:flex; }
+    .modal .imgwrap { max-width:90%; max-height:90%; background:#fff; padding:8px; border-radius:8px; }
+    .modal img { max-height:80vh; max-width:100%; display:block; }
+
+    /* RESPONSIVE */
+    @media (min-width:900px){
+      .hero { flex-direction:row; align-items:center; justify-content:space-between; gap:24px; }
+      .hero .title { font-size:32px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      
+      <img src="logo joselito comunciaciones.png" alt="Logo Joselito Comunicaciones">
+      <div>
+        <div class="brand">JOSELITO</div>
+        <div class="tag">COMUNICACIONES • Celulares y accesorios</div>
+      </div>
+    </div>
+
+<nav class="navbar">
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="ubicacion.html">Ubicación</a></li>
+    </ul>
+</nav>
+
+    </ul>
+</nav>
+
+    </nav>
+  </header>
+
+  <main>
+    
+    <section class="hero" aria-labelledby="hero-title">
+      <div>
+        <h1 id="hero-title" class="title">Tu tienda de confianza en celulares y accesorios</h1>
+        <p class="subtitle">Ofrecemos celulares, protectores, fundas y todo tipo de accesorios con garantía y servicio técnico. Ubicación: (C/Antonio guzman #62).</p>
+        <a class="cta" href="#productos">Ver productos</a>
+      </div>
+      <div style="min-width:200px; text-align:center;">
+        
+        <img src="imagen promocional.png" alt="Promoción de celulares" style="max-width:240px;">
+      </div>
+    </section>
+
+    <!-- GALERÍA DE PRODUCTOS -->
+    </p>
+
+    </ul>
+</section>
+
+
+      <div class="gallery-grid">
+        <!-- Tarjeta de producto: duplica y edita según necesites -->
+        <article class="card">
+          <!-- Reemplaza src por images/accesorio1.jpg -->
+          <img src="funda protectora.png" alt="Funda protectora - Ejemplo" loading="lazy" data-full="images/accesorio1.jpg">
+          <h4>Funda Protectora Premium</h4>
+          <p>Funda protectora con mejor calidad en el mercado.</p>
+        </article>
+
+        <article class="card">
+          <img src="iphone 17 pro max.png" alt="Smartphone modelo X - Ejemplo" loading="lazy" data-full="images/telefono1.jpg">
+          <h4>Smartphone Modelo X</h4>
+          <p>iphone 17 pro max ultimo modelo lanzado al mercado.</p>
+        </article>
+
+        <article class="card">
+          <img src="protector de pantalla.png" alt="Protector de pantalla - Ejemplo" loading="lazy" data-full="images/accesorio2.jpg">
+          <h4>Protector de Pantalla</h4>
+          <p>Mejor protector de cristal para iphone.</p>
+        </article>
+
+        <article class="card">
+          <img src="airpods pro apple.png" alt="Auriculares inalámbricos - Ejemplo" loading="lazy" data-full="images/auriculares1.jpg">
+          <h4>Auriculares Inalámbricos</h4>
+          <p>airpods pro apple 3.</p>
+        </article>
+
+        <!-- Agrega más tarjetas según lo necesites -->
+      </div>
+    </section>
+
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" aria-labelledby="contacto-title">
+      <h2 id="contacto-title" class="section-title">Contacto</h2>
+
+      <div class="contact">
+        <div class="card">
+          <h4>Visítanos</h4>
+          <p>Dirección: C/Antonio Guzman #62 Los Frailes 2.</p>
+        </div>
+
+        <div class="card">
+          <h4>Teléfono</h4>
+          <p>+1 (829) 920-6413 </p>
+        </div>
+
+        <div class="card">
+          <h4>Horario</h4>
+          <p>Lun a Vie: 9:00 - 6:00 • Sáb: 9:00 - 1:00</p>
+        </div>
+      </div>
+
+      <!-- FORMULARIO SIMPLE (sin backend) -->
+      <div style="margin-top:12px;">
+        <form onsubmit="event.preventDefault(); alert('Formulario de contacto: reemplaza la acción por tu backend o correo.');" style="display:flex;gap:8px;flex-wrap:wrap;">
+          <input type="text" placeholder="Nombre" required style="padding:10px;border-radius:8px;border:1px solid #ddd;flex:1;min-width:180px;">
+          <input type="email" placeholder="Correo" required style="padding:10px;border-radius:8px;border:1px solid #ddd;flex:1;min-width:180px;">
+          <input type="tel" placeholder="Teléfono" style="padding:10px;border-radius:8px;border:1px solid #ddd;min-width:160px;">
+          <textarea placeholder="Mensaje" required style="padding:10px;border-radius:8px;border:1px solid #ddd;width:100%;min-height:80px;"></textarea>
+          <button type="submit" style="background:#0375c6;color:#fff;border:none;padding:10px 14px;border-radius:8px;font-weight:700;">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="anio"></span> Joselito Comunicaciones — Todos los derechos reservados.
+    </footer>
+  </main>
+
+  <!-- MODAL PARA AMPLIAR IMÁGENES -->
+  <div id="imgModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="imgwrap" role="document">
+      <img id="modalImg" src="" alt="Imagen ampliada">
+    </div>
+  </div>
+
+  <script>
+    // Rellenar año en el footer
+    document.getElementById('anio').textContent = new Date().getFullYear();
+
+    // Modal de imágenes (se abre al dar clic en cualquier imagen con data-full)
+    const modal = document.getElementById('imgModal');
+    const modalImg = document.getElementById('modalImg');
+
+    document.querySelectorAll('img[data-full]').forEach(img => {
+      img.style.cursor = 'zoom-in';
+      img.addEventListener('click', () => {
+        const src = img.getAttribute('data-full') || img.src;
+        modalImg.src = src;
+        modalImg.alt = img.alt || 'Imagen ampliada';
+        modal.classList.add('open');
+        modal.setAttribute('aria-hidden', 'false');
+      });
+    });
+
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal || e.target === modalImg) {
+        modal.classList.remove('open');
+        modal.setAttribute('aria-hidden','true');
+        modalImg.src = '';
+      }
+    });
+
+    // Manejo de teclado (Esc para cerrar)
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modal.classList.contains('open')) {
+        modal.classList.remove('open');
+        modal.setAttribute('aria-hidden','true');
+        modalImg.src = '';
+      }
+    });
+  </script>
+</body>
+</html>
