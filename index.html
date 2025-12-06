@@ -1,33 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <meta charset="UTF-8">
     <title>Joselito Comunicaciones - Inicio</title>
     <link rel="stylesheet" href="estilos.css">
-    <style>
-.product {
-    padding: 10px;
-    border: 1px solid #ddd;
-    margin-bottom: 15px;
-    width: 300px;
-}
-
-button {
-    padding: 8px 12px;
-    background: #0056ff;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #003bbb;
-}
-</style>
-
 </head>
 
 <body>
- 
+
 <nav class="navbar">
     <ul>
         <li><a href="index.html">Inicio</a></li>
@@ -41,8 +21,11 @@ button:hover {
 <section class="section">
     <h1>Bienvenido a Joselito Comunicaciones</h1>
     <p>Tu tienda confiable de celulares, accesorios y tecnología moderna.</p>
+</section>
 
+</body>
 </html>
+
 
   <style>
     /* RESET BÁSICO */
@@ -52,14 +35,14 @@ button:hover {
     img { max-width:100%; display:block; }
 
     /* LAYOUT */
-   header {
+    header {
       background: linear-gradient(90deg,#0b79d0,#0375c6);
-      color: hsl(214, 16%, 91%);
+      color: #fff;
       padding: 18px 20px;
       display:flex;
       align-items:center;
       gap:18px;
-}
+    }
     .logo {
       display:flex;
       align-items:center;
@@ -105,6 +88,17 @@ button:hover {
     .card img { height:160px; object-fit:contain; margin-bottom:8px; }
     .card h4 { font-size:14px; margin-bottom:6px; }
     .card p { font-size:13px; color:#555; margin-bottom:8px; }
+
+    /* MISIÓN / VISIÓN / VALORES */
+    .grid-3 {
+      display:grid;
+      grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+      gap:12px;
+      margin-top:10px;
+    }
+    .box { background:#fff; padding:16px; border-radius:10px; box-shadow:0 4px 12px rgba(15,20,30,0.05); }
+    .box h3 { font-size:16px; margin-bottom:8px; }
+    .box p { color:#444; font-size:14px; line-height:1.5; }
 
     /* CONTACTO & FOOTER */
     .contact {
@@ -180,49 +174,39 @@ button:hover {
       </div>
     </section>
 
-    <!-- GALERÍA DE PRODUCTOS -->
-    </p>
-
-    </ul>
+ 
 </section>
 
 
       <div class="gallery-grid">
-        <!-- Tarjeta de producto: duplica y edita según necesites -->
         <article class="card">
-          <!-- Reemplaza src por images/accesorio1.jpg -->
           <img src="funda protectora.png" alt="Funda protectora - Ejemplo" loading="lazy" data-full="images/accesorio1.jpg">
           <h4>Funda Protectora Premium</h4>
-          <p>Funda protectora con mejor calidad en el mercado.</p>
+          <p>Descripción corta o precio.</p>
         </article>
 
         <article class="card">
           <img src="iphone 17 pro max.png" alt="Smartphone modelo X - Ejemplo" loading="lazy" data-full="images/telefono1.jpg">
           <h4>Smartphone Modelo X</h4>
-          <p>iphone 17 pro max ultimo modelo lanzado al mercado.</p>
+          <p>Descripción corta o precio.</p>
         </article>
 
         <article class="card">
           <img src="protector de pantalla.png" alt="Protector de pantalla - Ejemplo" loading="lazy" data-full="images/accesorio2.jpg">
           <h4>Protector de Pantalla</h4>
-          <p>Mejor protector de cristal para iphone.</p>
+          <p>Descripción corta o precio.</p>
         </article>
 
         <article class="card">
           <img src="airpods pro apple.png" alt="Auriculares inalámbricos - Ejemplo" loading="lazy" data-full="images/auriculares1.jpg">
           <h4>Auriculares Inalámbricos</h4>
-          <p>airpods pro apple 3.</p>
+          <p>Descripción corta o precio.</p>
         </article>
 
-        <!-- Agrega más tarjetas según lo necesites -->
       </div>
     </section>
 
-          </p>
-        </div>
-      </div>
-    </section>
-
+   
     <!-- CONTACTO -->
     <section id="contacto" aria-labelledby="contacto-title">
       <h2 id="contacto-title" class="section-title">Contacto</h2>
@@ -244,7 +228,6 @@ button:hover {
         </div>
       </div>
 
-      <!-- FORMULARIO SIMPLE (sin backend) -->
       <div style="margin-top:12px;">
         <form onsubmit="event.preventDefault(); alert('Formulario de contacto: reemplaza la acción por tu backend o correo.');" style="display:flex;gap:8px;flex-wrap:wrap;">
           <input type="text" placeholder="Nombre" required style="padding:10px;border-radius:8px;border:1px solid #ddd;flex:1;min-width:180px;">
@@ -259,6 +242,43 @@ button:hover {
     <footer>
       © <span id="anio"></span> Joselito Comunicaciones — Todos los derechos reservados.
     </footer>
+
+    <!-- POLÍTICA DE PRIVACIDAD Y USO -->
+<section id="politica" style="margin-top:30px; background:#fff; padding:20px; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.06);">
+    <h2 style="margin-bottom:10px;">Política de Privacidad y Uso</h2>
+
+    <p>
+        En <strong>Joselito Comunicaciones</strong> valoramos la privacidad de nuestros clientes.
+        Toda la información recopilada a través de esta página web será utilizada únicamente con fines comerciales,
+        tales como atención al cliente, seguimiento de solicitudes y mejora de servicios.
+    </p>
+
+    <h3 style="margin-top:12px;">1. Recolección de Información</h3>
+    <p>
+        Podemos recopilar datos como nombre, teléfono, correo electrónico y cualquier información enviada voluntariamente.
+        Estos datos no serán compartidos con terceros, salvo obligación legal.
+    </p>
+
+    <h3 style="margin-top:12px;">2. Uso de la Información</h3>
+    <ul style="margin-left:20px; margin-top:6px;">
+        <li>Responder consultas.</li>
+        <li>Procesar solicitudes de productos o servicios.</li>
+        <li>Enviar información u ofertas solo si el cliente lo autoriza.</li>
+    </ul>
+
+    <h3 style="margin-top:12px;">3. Protección de Datos</h3>
+    <p>Implementamos medidas de seguridad para proteger la información proporcionada.</p>
+
+    <h3 style="margin-top:12px;">4. Uso del Sitio Web</h3>
+    <p>El contenido del sitio está destinado únicamente para fines informativos y comerciales.</p>
+
+    <h3 style="margin-top:12px;">5. Consentimiento</h3>
+    <p>
+        Al usar este sitio web, aceptas los términos de esta política de privacidad.
+        Podemos actualizarla cuando sea necesario.
+    </p>
+</section>
+
   </main>
 
   <!-- MODAL PARA AMPLIAR IMÁGENES -->
@@ -269,10 +289,8 @@ button:hover {
   </div>
 
   <script>
-    // Rellenar año en el footer
     document.getElementById('anio').textContent = new Date().getFullYear();
 
-    // Modal de imágenes (se abre al dar clic en cualquier imagen con data-full)
     const modal = document.getElementById('imgModal');
     const modalImg = document.getElementById('modalImg');
 
@@ -295,7 +313,6 @@ button:hover {
       }
     });
 
-    // Manejo de teclado (Esc para cerrar)
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape' && modal.classList.contains('open')) {
         modal.classList.remove('open');
@@ -304,5 +321,6 @@ button:hover {
       }
     });
   </script>
+
 </body>
 </html>
